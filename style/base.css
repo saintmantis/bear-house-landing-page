@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    scrollbar-width: 4px;
+    scrollbar-color: #e0e1eb;
+    transition: 0.3s all ease-in-out;
+}
+    *::-webkit-scrollbar {
+      width: 4px;
+    }
+  
+    *::-webkit-scrollbar-track {
+    }
+  
+    *::-webkit-scrollbar-thumb {
+      background-color: #e0e1eb;
+      border-radius: 777px;
+    }
+  
+    *:hover {
+      transition: 0.3s all ease-in-out;
+    }
+
+.svg-icon {
+    max-height: 38px;
+    max-width: 38px;
+    min-height: 38px;
+    min-width: 38px;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    overflow-x: hidden;
+}
+
+header {
+  align-self: flex-start;
+}
+
+footer {
+  align-self: flex-end;
+}
+
+.disable {
+  display: none !important;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+@media screen and (max-width: 1439.98px) {
+    .container {
+        width: 100vw;
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .container {
+    width: 100vw;
+      margin: 0;
+      padding: 0 16px;
+    }
+}
