@@ -59,10 +59,6 @@
     * pod 'Cosmos'
     * pod 'netfox'
     * pod 'JivoSDK'.
-+ Язык программирования C#.
-  + Фреймворк от компании Microsoft VS2022.
-  + .NET.
-  + ASP.NET.
 * Средства разработки landing-page:
   + Язык гипертекстовой разметки HTML.
   + Язык таблиц стилей CSS.
